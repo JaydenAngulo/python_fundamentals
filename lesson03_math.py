@@ -40,3 +40,34 @@ print("Result 5: ", result5)
 
 #CHALLENGES
 
+# Challenge 1: Rectangle Area
+# Calculate the area of a rectangle with a width of 8 and a height of 5.
+
+rectangle_area = 8 * 5
+print("Area of Rectangle = ", rectangle_area)
+
+# Challenge 2: Circle Area
+# Use the formula pi r2 to calculate the area of a circle with radius 7.
+# (Use 3.14 for pi.)
+
+circle_area = 3.14 * 7 ** 2
+print("Area of Circle = ", circle_area)
+
+# Challenge 3: Shopping Total
+# A book costs $12.99 and a notebook costs $3.50.
+# Calculate the total cost for 3 books and 4 notebooks.
+
+shopping_total = (3 * 12.99) + (4 * 3.5)
+print("Shopping Total = ", shopping_total)
+
+# Challenge 4: Even or Odd
+# Create a variable that holds any integer.
+# Use the modulus operator to check if the number is even or odd.
+# Explain your reasoning.
+
+variable = 7
+even_or_odd = variable % 2
+if even_or_odd == 0:
+    print("even")
+if even_or_odd == 1:
+    print("odd")
