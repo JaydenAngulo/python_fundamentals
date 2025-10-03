@@ -75,7 +75,7 @@ print(my_favs)
 
 diameter = 14
 radius = diameter / 2
-circle_area = 3.14 * (radius ** 2)
+circle_area = math.pi * (radius ** 2)
 print("Area of Circle: ", circle_area)
 
 # Challenge 2: Simulate a Die Roll
