@@ -60,3 +60,40 @@ print(f"Hello, my name is {name}. I am {age} years old and I live in {city}.")
 
 print(f"Next year, I'll be {age + 1}. My name in uppercase is {name.upper()}.")
 
+# Challenge 1: Favorite Quote
+# Ask the user for their favorite quote and display its length.
+# EXAMPLE OUTPUT:
+# Enter your favorite quote: Those who believe in telekinetics, raise my hand.
+# Your quote is 48 characters long.
+
+favorite_quote = input("Enter your favorite quote: ")
+length_of_quote = len(favorite_quote)
+if len(favorite_quote) == 1:
+    print(f"Your quote is {length_of_quote} letter long.")
+else:
+    print(f"Your quote is {length_of_quote} letters long.")
+
+# Challenge 2: Name Formatter
+# Ask the user for their first and last name, then format it as "Last, First".
+# Use concatenation.
+# Example output:
+# Enter your first name: Ada
+# Enter your last name: Lovelace
+# Output formatted name: Lovelace, Ada
+
+first_name = input("Enter your first name: ")
+last_name = input("Now enter your last name: ")
+print(f"{last_name.capitalize()}, {first_name.capitalize()}")
+
+# Challenge 3: Word Mutation
+# Ask for a word and print it backwards, in uppercase, and lowercase.
+# Example output
+# Enter a word: Python
+# Uppercase: PYTHON
+# Lowercase: python
+# Backwards: nohtyP
+
+premutated_word = input("Enter a word: ")
+print("The word uppercase is: ", premutated_word.upper())
+print("The word lowercase is: ", premutated_word.lower())
+print("The word backwards is: ", premutated_word.capitalize()[::-1])
