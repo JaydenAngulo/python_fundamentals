@@ -110,8 +110,8 @@ print(matrix[2][2])
 first_list = [ 1, 2, 3, 4, 5, 6 ]
 print(first_list)
 new_number = int(input("Enter an integer: "))
-new_list = [ 1, 2, new_number, 4, 5, 6]
-print(new_list)
+first_list[2] = new_number
+print(first_list)
 
 ### **Challenge 2: Shopping List Manager**
 
@@ -121,7 +121,13 @@ print(new_list)
 # Remove one item of your choice.
 # Finally, print the final shopping list.
 
-shopping_list = []
-shopping_list.append("bread")
-shopping_list.append("corn")
-shopping_list.append[
+shopping = []
+print(shopping)
+shopping.append("bread")
+shopping.append("corn")
+shopping.append("milk")
+print(shopping)
+shopping.insert(1, "orange juice")
+print(shopping)
+shopping.remove("corn")
+print(shopping)
