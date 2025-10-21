@@ -1,6 +1,6 @@
 # Challenge 1: Palindrome Checker
 
-is_palindrome = input("Enter a word:")
+is_palindrome = input("Enter a word: ")
 backwards_is_palindrome = is_palindrome[::-1]
 print(is_palindrome == backwards_is_palindrome)
 
@@ -24,7 +24,7 @@ base_word = input("Enter a word: ")
 base_word_length = len(base_word)
 if base_word_length < 3:
     print(base_word)
-elif base_word[-3:-1] != "ing":
+elif base_word[-3:] != "ing":
     print(f"{base_word}ing")
-else:
+if base_word[-3:] == "ing":
     print(f"{base_word}ly")
